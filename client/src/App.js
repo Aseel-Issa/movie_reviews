@@ -10,7 +10,8 @@ import AddReview from './components/AddReview';
 import CreateMovie from './components/CreateMovie';
 import LoginRegisterationForm from './components/LoginRegisterationForm'
 import axios from 'axios'
-const Base_Url = 'http://localhost:3000'
+const Base_Url = ''
+// 'http://localhost:3000'
 
 
 class App extends Component {

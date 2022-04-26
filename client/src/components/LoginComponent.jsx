@@ -2,7 +2,8 @@
 import { useState } from 'react'
 import axios from 'axios'
 import User from '../classes/User'
-const Base_Url = 'http://localhost:3000'
+const Base_Url = ''
+// 'http://localhost:3000'
 export default function LoginComponent(props) {
 
     const [email, setEmail] = useState('')
